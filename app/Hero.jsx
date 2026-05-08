@@ -8,19 +8,28 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
-        className="text-5xl md:text-6xl font-extrabold mb-5 leading-tight heading-gradient"
+        className="text-5xl md:text-6xl font-extrabold mb-5 leading-tight heading-gradient font-family: bebas-neue "
       >
         Guillermo Montemayor
+      </motion.h1>
+
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.9, ease: "easeOut" }}
+        className="text-3xl md:text-6xl  mb-5 leading-tight heading-gradient font-family: bebas-neue "
+      >
+        Web Developer
       </motion.h1>
 
       <motion.p
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-        className="text-lg md:text-xl text-zinc-300 max-w-2xl leading-relaxed"
+        className="text-lg md:text-xl text-zinc-300 max-w-2xl leading-relaxed font-family: bebas-neue "
       >
-        Web & Mobile Developer · Veterinarian · Tech Enthusiast
-        <br />
+          
+      
         Turning ideas into powerful digital solutions.
       </motion.p>
 
@@ -31,7 +40,7 @@ export default function Hero() {
         transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
         className="mt-3 text-sm md:text-base text-zinc-400"
       >
-        Next.js · React · Flutter · Python
+        JavaScript · React · Next.js · Tailwind CSS · Firebase
       </motion.p>
 
       <div className="mt-8 flex flex-wrap gap-4">
